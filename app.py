@@ -3,9 +3,9 @@ import joblib
 import numpy as np
 
 # Load the model, vectorizer, and label encoder
-model = joblib.load(‪"C:/Users/5411efi/medicine_app/drug_classifier.pkl")
-vectorizer = joblib.load("‪C:/Users/5411efi/medicine_app/tfidf_vectorizer.pkl")
-label_encoder = joblib.load("‪C:/Users/5411efi/medicine_app/label_encoder.pkl")
+model = joblib.load(‪"drug_classifier.pkl")
+vectorizer = joblib.load("‪tfidf_vectorizer.pkl")
+label_encoder = joblib.load("‪label_encoder.pkl")
 
 # App title and intro
 st.set_page_config(page_title="Drug Type Predictor", layout="centered")
