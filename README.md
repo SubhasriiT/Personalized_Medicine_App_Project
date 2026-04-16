@@ -11,9 +11,16 @@ A machine learning-based web application that recommends the most suitable medic
 ## Description
 This project is a machine learning-based system that recommends the most suitable drug type (Oral, Injectable, Topical, Liquid, or Other) based on a patient's medical condition and description. It uses Natural Language Processing (TF-IDF) and classification models to analyze text data and predict the appropriate medicine category. The final model is deployed as an interactive web application using Streamlit.
 
-> **Dataset:** `medicine.csv` — Contains 9,720 records of medicines with Drug Name, Reason, and Description.
+## Dataset
 
----
+This project uses a medicine dataset containing 9,720 records with features such as Drug Name, Reason, and Description.
+
+The original dataset source was not publicly available, so it has been uploaded to Kaggle for accessibility:
+
+🔗 https://www.kaggle.com/datasets/subhasrii/medicine-drug-name-and-description-dataset
+
+> Note: This dataset was used during the internship project and is shared here for educational and demonstration purposes only. It is published under CC0 (Public Domain).
+
 
 ## Technologies Used
 - **Language:** Python
@@ -21,7 +28,6 @@ This project is a machine learning-based system that recommends the most suitabl
 - **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, streamlit, joblib
 - **Techniques:** TF-IDF, Machine Learning Classification
 
----
 
 ## Installation
 To run this project locally:
@@ -35,7 +41,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
 4. Run the Streamlit app:
 streamlit run app.py
 
----
 
 ## Usage
 1. Enter a medical condition or symptom description in the input box
@@ -43,12 +48,10 @@ streamlit run app.py
 3. The model predicts the most suitable drug category
 4. View probability scores for all classes
 
----
 
 ## Project Report
 Since the Jupyter Notebook does not render on GitHub, the full project report is available as a PDF in this repository.
 
----
 
 ## Contributing
 Contributions are welcome. If you would like to improve this project:
@@ -58,12 +61,10 @@ Contributions are welcome. If you would like to improve this project:
 3. Make your changes
 4. Submit a pull request
 
----
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) and is intended for educational purposes.
 
----
 
 ## Contact
 For any queries or suggestions, feel free to reach out:
