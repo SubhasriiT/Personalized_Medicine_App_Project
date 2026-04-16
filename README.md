@@ -1,5 +1,8 @@
 # Personalized Medicine Recommendation Using AI
 
+## Live Demo
+https://personalizedmedicineappproject-iayznvvrtjdlj3zmpausy6.streamlit.app/
+
 ## 1. Project Title
 
 Personalized Medicine Recommendation Using AI
