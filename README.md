@@ -1,57 +1,73 @@
 # Personalized Medicine Recommendation Using AI
 
-## Live Demo
-https://personalizedmedicineappproject-iayznvvrtjdlj3zmpausy6.streamlit.app/
+A machine learning-based web application that recommends the most suitable medicine type based on a patient's medical condition and description.
 
-## 1. Project Title
+> This project was completed as part of a **3-month internship** at **Vcodez**.
 
-Personalized Medicine Recommendation Using AI
+🔗 **Live Demo:** https://personalizedmedicineappproject-iayznvvrtjdlj3zmpausy6.streamlit.app/
 
-## 2. Description
+---
 
-This project is a machine learning-based system that recommends the most suitable drug type (Oral, Injectable, Topical, Liquid, or Other) based on a patient’s medical condition and description. It uses Natural Language Processing (TF-IDF) and classification models to analyze text data and predict the appropriate medicine category. The final model is deployed as an interactive web application using Streamlit.
+## Description
+This project is a machine learning-based system that recommends the most suitable drug type (Oral, Injectable, Topical, Liquid, or Other) based on a patient's medical condition and description. It uses Natural Language Processing (TF-IDF) and classification models to analyze text data and predict the appropriate medicine category. The final model is deployed as an interactive web application using Streamlit.
 
-##  Internship
+> **Dataset:** `medicine.csv` — Contains 9,720 records of medicines with Drug Name, Reason, and Description.
 
-This project was completed as part of a three-month internship at Vcodez.
+---
 
-## 3. Installation
+## Technologies Used
+- **Language:** Python
+- **Environment:** Jupyter Notebook / Streamlit
+- **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, streamlit, joblib
+- **Techniques:** TF-IDF, Machine Learning Classification
 
+---
+
+## Installation
 To run this project locally:
 
 1. Clone the repository:
-   git clone https://github.com/SubhasriiT/Personalized_Medicine_App_Project.git
-   
-3. Navigate to the project folder:
-   cd personalized-medicine-recommendation-ai
+git clone https://github.com/SubhasriiT/Personalized_Medicine_App_Project.git
+2. Navigate to the project folder:
+cd Personalized_Medicine_App_Project
+3. Install required libraries:
+pip install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
+4. Run the Streamlit app:
+streamlit run app.py
 
-4. Install required libraries:
-   pip install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
+---
 
-5. Run the Streamlit app:
-   streamlit run app.py
+## Usage
+1. Enter a medical condition or symptom description in the input box
+2. Click on **"Predict Drug Type"**
+3. The model predicts the most suitable drug category
+4. View probability scores for all classes
 
-## 4. Usage
+---
 
-* Enter a medical condition or symptom description in the input box
-* Click on "Predict Drug Type"
-* The model predicts the most suitable drug category
-* Displays probability scores for all classes
+## Project Report
+Since the Jupyter Notebook does not render on GitHub, the full project report is available as a PDF in this repository.
 
-## 5. Contributing
+---
 
-Contributions are welcome:
+## Contributing
+Contributions are welcome. If you would like to improve this project:
 
-* Fork the repository
-* Create a new branch
-* Make improvements
-* Submit a pull request
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
 
-## 6. License
+---
 
-This project is for educational purposes.
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) and is intended for educational purposes.
 
-## 7. Contact
+---
 
-Name: Subhasri
-Email: ktsubhasri2005@gmail.com
+## Contact
+For any queries or suggestions, feel free to reach out:
+
+**Name:** Subhasri  
+**Email:** ktsubhasri2005@gmail.com  
+**GitHub:** [SubhasriiT](https://github.com/SubhasriiT)
